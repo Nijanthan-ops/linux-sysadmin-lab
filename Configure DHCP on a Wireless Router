@@ -1,1 +1,23 @@
+# DHCP Configuration on a Wireless Router — Cisco Packet Tracer
 
+A simulated network project configuring DHCP on a wireless router so connected devices automatically receive IP addresses, rather than requiring manual configuration.
+
+## What's in this project
+
+- `topology-screenshot.png` — the network topology (wireless router + connected devices)
+- `dhcp-result-screenshot.png` — a connected device's IP configuration, showing an IP address automatically assigned by DHCP
+- `dhcp-wireless-router.pkt` — the Packet Tracer project file
+
+## What I built
+
+- Configured a wireless router to act as a DHCP server, defining an IP address pool for client devices
+- Connected multiple devices (PCs/laptops) to the wireless network
+- Verified DHCP was working by checking a connected device's IP configuration and confirming it received an address automatically from the router's pool, with no manual IP setup required
+
+## Why this matters
+
+DHCP is one of the most common services a sysadmin manages — understanding how automatic IP assignment works (and how to verify it's functioning correctly) is directly relevant to real network administration and troubleshooting connectivity issues.
+
+## Related work
+
+Part of a broader effort to build networking and infrastructure fundamentals, alongside my [Linux SysAdmin Home Lab](../linux-sysadmin-lab).
